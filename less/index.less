@@ -1,0 +1,123 @@
+@import 'base';
+
+// @rootSize:3.75vw;
+
+@vw: 3.75vw;
+@color: #fb7299;
+
+li{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    background-color: white;
+    border-bottom: 1px solid #c2c2c2;
+
+    div{
+        display: flex;
+        margin:  3.867vw 2.8vw 1vw 2.8vw;
+align-items: center;
+        .mini-header__logo{
+            height: 7.867vw;
+            width: 18vw ;
+            }
+            img{
+                width: 19.067vw;
+                height: 6.267vw;
+            }
+    }
+    div:first-child{
+        justify-content: space-between;
+    li span:nth-child(-n+2){
+        display: inline-block;
+        height: 6.4vw;
+        width: 6.4vw;
+        line-height: 6.4vw;
+        font-size: 1.4vw;
+        text-align: center;
+        margin-right: 4vw;
+    }
+    
+    li span:nth-child(1){
+        color: rgb(210, 210, 210);
+        font-size: 4.5vw;
+    }
+    li span:nth-child(2){
+        background-color: #c2c2c2;
+        border-radius: 50%;
+        color: #fb7299;
+        font-weight: 700;
+    }
+    }
+    div:last-child{
+        height: 10.6vw;
+        justify-content: space-between;
+
+      padding-top: 0;
+      padding-bottom: 0;
+      font-size: 3.6vw;
+      
+        li{
+            display: flex;
+            align-items: center;
+        }
+        li:first-child{
+          color: rgb(255, 57, 90);
+          border-bottom: 1px solid rgb(255, 76, 76);
+
+        }
+        li:last-child{
+            color: #c2c2c2;
+            font-size: 6vw;
+        }
+    }
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 32vw;
+    justify-content: space-between;
+    margin-right:2.8vw;
+    margin-left: 2.8vw;
+}
+.center-Box {
+    display: flex;
+    flex-direction: column;
+    height: 37vw;
+    width: 46vw;
+    margin-bottom: 3vw;
+
+    background-color: #fb7299;
+    font-size: 4vw;
+    li:first-child{
+        position: relative;
+    
+    }
+.mask{
+position: absolute;
+display: flex;
+align-items: flex-end;
+justify-content: space-between;
+width: 100%;
+bottom: 0;
+left: 0;
+color: aliceblue;
+background-color: #49494998;
+height: 12vw;
+padding-right:2vw ;
+padding-left: 2vw;
+padding-bottom: 1vw;
+span{
+    margin-left: 1.2vw;
+}
+}
+img{
+    height: 26vw;
+}
+}
+
